@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DsLite::DstarLite">
+    <Position X="8.5" Y="1.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="DsLite::DstarLite::key_compare" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DstarL.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="DsLite::DstarLite::HASH" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DstarL.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="DsLite::DstarLite::openPair" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DstarL.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="DsLite::DstarLite::OPENLIST" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DstarL.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="DsLite::DstarLite::OPENLhash" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DstarL.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEGEFCIABAEAzAIACAAARAQABAAABAAAABAJEAgA=</HashCode>
+      <FileName>DstarL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DsLite::Frontier">
+    <Position X="3.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAQAEQAAAAAACAAACAAAAAEAYABAAAAAAAIgBAAAAAA=</HashCode>
+      <FileName>Frontier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DsLite::Global_map">
+    <Position X="0.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAEQAAAAAAAAgAAAAAAAAAAABAAAAQAAAgAAAAAgA=</HashCode>
+      <FileName>Global_map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DsLite::Map_Node">
+    <Position X="10.75" Y="1.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="DsLite::Map_Node::Node">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="DsLite::Map_Node::Node::Hashing" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Map_Node.h</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Map_Node.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAEIBAQAAAQACIAAAAAwAAAAAAAAA=</HashCode>
+      <FileName>Map_Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DsLite::Robot_Interface">
+    <Position X="6.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QABAEAAAAAAAAACECAAAAAgAAAEAABAAQAACAEAAAAA=</HashCode>
+      <FileName>Robot_Interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
